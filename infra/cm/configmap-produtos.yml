@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: cm-produto
+data:
+  DB_HOST: db-product.cswrxwzom0cg.us-east-1.rds.amazonaws.com
+  DB_NAME: postgres
+  DB_REDIS_HOST: redis-product-category-001.egntrl.0001.use1.cache.amazonaws.com
