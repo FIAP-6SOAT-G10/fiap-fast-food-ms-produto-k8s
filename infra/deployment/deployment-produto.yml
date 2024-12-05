@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: produto
-          image: 802133467671.dkr.ecr.us-east-1.amazonaws.com/fiap-fast-food-ms-product:1.0
+          image: 427107249392.dkr.ecr.us-east-1.amazonaws.com/products:1.0
           imagePullPolicy: Always
           env:
             - name: DB_USERNAME
